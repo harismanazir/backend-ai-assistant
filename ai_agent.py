@@ -36,4 +36,3 @@ def ask_agent(user_query: str) -> str:
 
 
 
-# print(ask_agent(user_query="what is 2+2"))
