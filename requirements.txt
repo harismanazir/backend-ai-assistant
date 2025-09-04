@@ -3,10 +3,11 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
-# LangChain + Google GenAI (Stable Versions)
+# LangChain + Google GenAI (Compatible Versions)
 langchain==0.1.16
 langchain-core==0.1.42
 langchain-google-genai==0.0.11
+google-generativeai==0.4.1
 
 # Pydantic (Compatible with FastAPI & LangChain)
 pydantic==1.10.12
@@ -18,9 +19,6 @@ gtts
 SpeechRecognition
 sounddevice
 ffmpeg-python
-
-# Google Generative AI SDK
-google-generativeai==0.8.3
 
 # Utilities
 numpy
