@@ -1,24 +1,30 @@
+# FastAPI + Uvicorn
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
+# LangChain + Gemini Integration (Updated & Compatible)
+langchain==0.3.3
+langchain-google-genai==0.0.15
 langchain-core==0.3.15
+pydantic==2.8.2
 
-langchain==0.1.16
-langchain-google-genai==0.0.11
-pydantic==1.10.12
-
-
+# Audio + Speech + TTS
 opencv-python-headless
-
-langgraph
-groq
-python-dotenv
 pydub
 gtts
 SpeechRecognition
-google-generativeai
+sounddevice
 ffmpeg-python
+
+# Google Generative AI (for Gemini direct use if needed)
+google-generativeai==0.8.3
+
+# Others
 numpy
 requests
-sounddevice
+python-dotenv
+groq
+langgraph
+
+
