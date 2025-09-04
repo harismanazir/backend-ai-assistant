@@ -3,11 +3,13 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
-# LangChain + Gemini Integration (Updated & Compatible)
-langchain==0.3.3
-langchain-google-genai==0.0.15
+# LangChain + Google GenAI (Stable)
+langchain==0.1.16
 langchain-core==0.3.15
-pydantic==2.8.2
+langchain-google-genai==0.0.11
+
+# Pydantic (Compatible with above)
+pydantic==1.10.12
 
 # Audio + Speech + TTS
 opencv-python-headless
@@ -17,10 +19,10 @@ SpeechRecognition
 sounddevice
 ffmpeg-python
 
-# Google Generative AI (for Gemini direct use if needed)
+# Google Generative AI SDK
 google-generativeai==0.8.3
 
-# Others
+# Utilities
 numpy
 requests
 python-dotenv
